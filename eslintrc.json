@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard"
+  ],
+  "rules": {
+    "vue/script-indent": ["error",2,{"baseIndent": 1}]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/*.{j,t}s?(x)"
+      ],
+      "env": {
+        "mocha": true
+      }
+    }
+  ]
+}
