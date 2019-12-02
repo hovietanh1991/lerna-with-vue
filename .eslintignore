@@ -1,0 +1,5 @@
+node_modules
+packages/app-core/node_modules
+packages/infrastructure/node_modules
+packages/infrastructure/UI/node_modules
+packages/infrastructure/UI/tests

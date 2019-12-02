@@ -1,0 +1,17 @@
+{
+  "name": "app-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \" Domain has nothing to start \"",
+    "test": "mocha --timeout 20000 --recursive --exit -c -R spec **/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.1.1"
+  }
+}
