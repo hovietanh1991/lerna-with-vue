@@ -1,4 +1,5 @@
 node_modules
+packages/app-core
 packages/app-core/node_modules
 packages/infrastructure/node_modules
 packages/infrastructure/UI/node_modules

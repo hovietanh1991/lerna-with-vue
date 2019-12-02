@@ -1,9 +1,9 @@
 <template>
-    <ul id="userList">
-        <li v-for="user in userList" v-bind:key="user.id">
-            {{ user.id }} {{ user.name }}
-        </li>
-    </ul>
+  <ul id="userList">
+    <li v-for="user in userList" v-bind:key="user.id">
+      {{ user.id }} {{ user.name }}
+    </li>
+  </ul>
 </template>
 
 <script>
